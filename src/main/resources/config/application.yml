@@ -1,0 +1,22 @@
+logging:
+    level:
+        root: INFO
+        com.mytest: INFO
+
+server:
+    port: 8080
+    servlet:
+        session:
+            cookie:
+                http-only: true
+spring:
+    cache:
+        type: NONE
+    application:
+        name: vision
+info:
+    project:
+        version: #project.version#
+        hash: #mytest.hash#
+
+
